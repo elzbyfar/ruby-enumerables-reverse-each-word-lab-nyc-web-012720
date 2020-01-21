@@ -1,3 +1,14 @@
+def reverse_each_word(sentence)
+  split_words = sentence.split(" ")
+  reverse_each = split_words.collect { |word| word.reverse }
+  output = reverse_words.join(" ")
+  output
+end 
+
+
+
+
+
 # sentence = "Hi, my name is...chika chika chika, Slim Shady."
 
 # def reverse_each_word(word)
