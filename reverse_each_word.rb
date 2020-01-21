@@ -1,4 +1,4 @@
-def reverse_each_word(sentence)
+def reverse_words_with_each(sentence)
   split_words = sentence.split(" ")
   reverse_each = split_words.each { |word| word.reverse }
   output = reverse_each.join(" ")
